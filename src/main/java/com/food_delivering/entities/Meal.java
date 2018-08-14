@@ -1,4 +1,4 @@
-package com.food.delivering.enteties;
+package com.food_delivering.entities;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -15,7 +15,7 @@ import javax.persistence.Table;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "organizations")
+@Table(name = "meal")
 @ToString(onlyExplicitlyIncluded = true)
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Meal {
@@ -28,7 +28,7 @@ public class Meal {
     private String name;
 
     @Column(name = "type")
-    private String string;
+    private String type;
 
     @Column(name = "cost")
     private Long cost;
