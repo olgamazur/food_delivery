@@ -1,2 +1,8 @@
 rootProject.name = 'food-delivering'
+include 'outh-service'
+findProject(':outh-service')?.name = 'outh'
+include 'food-service'
+findProject(':food-service')?.name = 'food'
+include 'food-service'
+findProject(':food-service')?.name = 'food'
 
