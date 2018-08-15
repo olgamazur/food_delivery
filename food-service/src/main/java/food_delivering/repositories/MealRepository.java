@@ -18,4 +18,7 @@ public interface MealRepository extends JpaRepository<Meal, Long> {
 
     @Query(value = "SELECT * FROM meal WHERE type = 'drink'", nativeQuery = true)
     List<Meal> findAllDrinks();
+
+    @Query(value = "SELECT * FROM meal WHERE type = 'food'", nativeQuery = true)
+    List<Meal> findAllFood();
 }

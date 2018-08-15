@@ -18,7 +18,7 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .useDefaultResponseMessages(false)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.food_delivering"))
+                .apis(RequestHandlerSelectors.basePackage("food_delivering"))
                 .build()
                 .directModelSubstitute(LocalDateTime.class, Date.class);
     }

@@ -26,6 +26,6 @@ public class ClientService {
     public ClientDto getClient(Long userId) {
         return userRepository.findById(userId)
                 .map(user -> entityConverter.transformClient(user))
-                .orElseThrow(() -> new TargetNotFoundException("Client with id " + userId + " is not found"));
+                .orElseThrow(() -> new TargetNotFoundException(userId,"Client"));
     }
 }

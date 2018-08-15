@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-import javax.validation.constraints.Min;
 import java.util.List;
 
 @Slf4j
@@ -57,10 +56,17 @@ public class ManagerController {
     public MealDto getMeal(@PathVariable @Valid String name) {
         return mealService.getMeal(name);
     }
+
     @GetMapping(value = "/meal/drinks", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<MealDto> getDrinks() {
         return mealService.getDrinks();
     }
+
+    @GetMapping(value = "/meal/food", produces = MediaType.APPLICATION_JSON_VALUE)
+    public List<MealDto> getFood() {
+        return mealService.getFood();
+    }
+
     @DeleteMapping(value = "/meal/{name}", produces = MediaType.APPLICATION_JSON_VALUE)
     public MealDto deleteMeal(@PathVariable String name) {
         return mealService.deleteMeal(name);

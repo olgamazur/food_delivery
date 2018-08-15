@@ -30,14 +30,14 @@ public class MealService {
     public MealDto getMeal(String name) {
         return mealRepository.findMealByName(name)
                 .map(meal -> entityConverter.transformMeal(meal))
-                .orElseThrow(() -> new TargetNotFoundException("Meal with name " + name + " is not found"));
+                .orElseThrow(() -> new TargetNotFoundException( name,"Meal"));
     }
     public MealDto addNewMeal(CreatedMealDto mealDto) {
         log.info("Create meal by DTO data {}", mealDto);
         String mealName = mealDto.getName();
         if (mealRepository.existsMealByName(mealName)) {
             log.warn("Meal already exists {}", mealName);
-            throw new TargetAlreadyExistsException("This meal already exists");
+            throw new TargetAlreadyExistsException(mealName,"meal");
         }
         Meal created=new Meal();
         created.setName(mealDto.getName());
@@ -57,10 +57,13 @@ public class MealService {
                     log.info("Meal with name {} was successfully removed from database", name);
                     return entityConverter.transformMeal(meal);
                 })
-                .orElseThrow(() -> new TargetNotFoundException("Meal with name " + name + " is not found"));
+                .orElseThrow(() -> new TargetNotFoundException(name,"Meal"));
     }
 
     public List<MealDto> getDrinks() {
         return mealRepository.findAllDrinks().stream().map(meal -> entityConverter.transformMeal(meal)).collect(Collectors.toList());
+    }
+    public List<MealDto> getFood() {
+        return mealRepository.findAllFood().stream().map(meal -> entityConverter.transformMeal(meal)).collect(Collectors.toList());
     }
 }
