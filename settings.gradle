@@ -1,8 +1,10 @@
 rootProject.name = 'food-delivering'
-include 'outh-service'
-findProject(':outh-service')?.name = 'outh'
 include 'food-service'
 findProject(':food-service')?.name = 'food'
 include 'food-service'
 findProject(':food-service')?.name = 'food'
+include 'auth-service'
+findProject(':auth-service')?.name = 'auth'
+include 'auth1-service'
+findProject(':auth1-service')?.name = 'auth1'
 

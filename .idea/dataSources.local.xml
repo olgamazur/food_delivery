@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="food@localhost" uuid="d2561529-7974-4b0f-9b00-5c542b958d19">
+    <data-source name="food@localhost" uuid="158e8821-5e9d-4ca4-87eb-ab8e9a06222a">
       <database-info product="PostgreSQL" version="10.4" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

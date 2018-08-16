@@ -13,7 +13,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 bootJar {
-    baseName = 'food-service'
+    baseName = 'auth-service'
     version = '0.1.0'
 }
 

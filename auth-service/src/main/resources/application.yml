@@ -1,0 +1,22 @@
+server:
+    port: 8081
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/food
+        username: postgres
+        password: postgres
+    jpa:
+         show-sql: true
+         generate-ddl: true
+         database: POSTGRESQL
+         database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+         properties:
+           hibernate:
+              ddl-auto: update
+              temp:
+                    use_jdbc_metadata_defaults: false
+           jdbc:
+              lob:
+                non_contextual_creation: true
+
