@@ -1,9 +1,8 @@
 package com.authorization.utils;
 
 
-import com.authorization.dto.UserDetailsDto;
-import com.authorization.entities.UserDetails;
-import com.authorization.repositories.UserDetailsRepository;
+
+import com.authorization.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -12,10 +11,10 @@ import org.springframework.stereotype.Service;
 @Service
 @RequiredArgsConstructor
 public class EntityConverter {
-    private final UserDetailsRepository userDetailsRepository;
+    private final UserRepository userRepository;
 
-    public UserDetailsDto transformUserDetails(UserDetails userDetails) {
+ /*   public UserDetailsDto transformUserDetails(UserDetails userDetails) {
         UserDetailsDto dto = new UserDetailsDto(userDetails.getUsername(), userDetails.getPassword(),userDetails.getCreatedDate());
         return dto;
-    }
+  } */
 }

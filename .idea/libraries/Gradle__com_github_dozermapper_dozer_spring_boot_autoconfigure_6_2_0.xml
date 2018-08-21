@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.dozermapper:dozer-spring-boot-autoconfigure:6.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dozermapper/dozer-spring-boot-autoconfigure/6.2.0/abe17c0d48f0131ce7c185cb6e473e4d28fa0f37/dozer-spring-boot-autoconfigure-6.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.dozermapper/dozer-spring-boot-autoconfigure/6.2.0/3a6d4edd7301792a9d7492e0a1a1048a1bde4a76/dozer-spring-boot-autoconfigure-6.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -19,19 +19,12 @@ import java.security.Principal;
 @RestController
 @RequiredArgsConstructor
 public class UserOperationsController {
-    private AuthService authService;
-    @GetMapping("/user")
-    public String user(Principal user) {
-        log.warn("Got user: {}", user);
-        return "Hi";
-    }
-  /*    @PostMapping(value = "/common/register", produces = MediaType.APPLICATION_JSON_VALUE,
+    private final AuthService authService;
+ /*    @PostMapping(value = "/register", produces = MediaType.APPLICATION_JSON_VALUE,
             consumes = MediaType.APPLICATION_JSON_VALUE)
   public UserDetailsDto registerUser(@RequestBody @Valid RegisteredUserDetailsDto userRegisterDto) {
-        log.info("Register user: {}", userRegisterDto);
         UserDetailsDto resultDto = authService.register(userRegisterDto);
-        log.debug("New user registered, new user definition: {}", resultDto);
         return resultDto;
-    } */
+    }*/
 
 }
