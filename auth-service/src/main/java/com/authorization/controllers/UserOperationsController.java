@@ -6,6 +6,7 @@ import com.authorization.services.AuthService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,11 +21,16 @@ import java.security.Principal;
 @RequiredArgsConstructor
 public class UserOperationsController {
     private final AuthService authService;
- /*    @PostMapping(value = "/register", produces = MediaType.APPLICATION_JSON_VALUE,
-            consumes = MediaType.APPLICATION_JSON_VALUE)
-  public UserDetailsDto registerUser(@RequestBody @Valid RegisteredUserDetailsDto userRegisterDto) {
-        UserDetailsDto resultDto = authService.register(userRegisterDto);
-        return resultDto;
-    }*/
+
+    @GetMapping(value = "/hi")
+    public String Hello() {
+        return "hi";
+
+    }
+    @GetMapping(value = "/login")
+    public String Login() {
+        return "login";
+
+    }
 
 }

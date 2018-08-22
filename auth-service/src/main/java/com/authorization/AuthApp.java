@@ -7,6 +7,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 @EntityScan
 @SpringBootApplication
+@EnableResourceServer
 public class AuthApp {
     public static void main(String[] args) {
         SpringApplication.run(AuthApp.class, args);
