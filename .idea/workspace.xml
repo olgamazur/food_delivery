@@ -1502,7 +1502,7 @@
       <workItem from="1534843680796" duration="21455000" />
       <workItem from="1534923867193" duration="13777000" />
       <workItem from="1534941513959" duration="572000" />
-      <workItem from="1534943287032" duration="235000" />
+      <workItem from="1534943287032" duration="480000" />
     </task>
     <task id="LOCAL-00001" summary="add exceptions">
       <created>1534335824918</created>
@@ -1539,11 +1539,74 @@
       <option name="project" value="LOCAL" />
       <updated>1534943498862</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="auth">
+      <created>1534943529611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943529612</updated>
+    </task>
+    <task id="LOCAL-00007" summary="auth">
+      <created>1534943540840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943540840</updated>
+    </task>
+    <task id="LOCAL-00008" summary="auth">
+      <created>1534943548620</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943548620</updated>
+    </task>
+    <task id="LOCAL-00009" summary="auth">
+      <created>1534943580740</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943580740</updated>
+    </task>
+    <task id="LOCAL-00010" summary="auth">
+      <created>1534943591933</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943591933</updated>
+    </task>
+    <task id="LOCAL-00011" summary="auth">
+      <created>1534943655046</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943655046</updated>
+    </task>
+    <task id="LOCAL-00012" summary="auth">
+      <created>1534943663025</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943663025</updated>
+    </task>
+    <task id="LOCAL-00013" summary="auth">
+      <created>1534943679178</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943679178</updated>
+    </task>
+    <task id="LOCAL-00014" summary="auth">
+      <created>1534943698919</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534943698919</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67000000" />
+    <option name="totallyTimeSpent" value="67245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1556,6 +1619,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-28" y="11" width="1367" height="734" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
