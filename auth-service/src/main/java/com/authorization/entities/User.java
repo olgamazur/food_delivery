@@ -13,50 +13,16 @@ import java.util.List;
 
 @Data
 @Entity
-@Table(name = "auth-user")
-public class User implements UserDetails {
-
+@Table(name = "auth_users")
+public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "user_id", nullable = false, updatable = false)
-    private Long id;
-
-    @Column(name = "username", nullable = false, unique = true)
+    @Column(name = "username")
     private String username;
 
-    @Column(name = "password", nullable = false)
+    @Column(name = "password")
     private String password;
 
-    @Column(name = "enabled")
-    private boolean enabled;
-
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
-
-        return authorities;
-    }
-
-    @Override
-    public boolean isAccountNonExpired() {
-        return true;
-    }
-
-    @Override
-    public boolean isAccountNonLocked() {
-        // we never lock accounts
-        return true;
-    }
-
-    @Override
-    public boolean isCredentialsNonExpired() {
-        // credentials never expire
-        return true;
-    }
-
-    @Override
-    public boolean isEnabled() {
-        return enabled;
-    }
+    @Column(name = "created_date")
+    private LocalDateTime createdDate;
 
 }

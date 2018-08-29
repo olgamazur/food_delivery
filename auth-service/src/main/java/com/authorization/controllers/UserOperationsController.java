@@ -1,20 +1,19 @@
 package com.authorization.controllers;
 
-import com.authorization.dto.RegisteredUserDetailsDto;
-import com.authorization.dto.UserDetailsDto;
+import com.authorization.dto.UserDto;
+import com.authorization.dto.UserRegisterDto;
 import com.authorization.services.AuthService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-import java.security.Principal;
 
 @Slf4j
 @RestController
@@ -27,10 +26,17 @@ public class UserOperationsController {
         return "hi";
 
     }
-    @GetMapping(value = "/login")
-    public String Login() {
-        return "login";
-
+    @PostMapping(value = "/register", produces = MediaType.APPLICATION_JSON_VALUE,
+            consumes = MediaType.APPLICATION_JSON_VALUE)
+    public UserDto registerUser(@RequestBody @Valid UserRegisterDto userRegisterDto) {
+        log.info("Register via mobile client with user: {}", userRegisterDto);
+        UserDto resultDto = authService.register(userRegisterDto);
+        return resultDto;
     }
-
+    @PostMapping(value = "/login", produces = MediaType.APPLICATION_JSON_VALUE,
+            consumes = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseStatus(HttpStatus.CREATED)
+    public UserRegisterDto loginByUser(@RequestBody UserRegisterDto userToLogin) {
+        return authService.login(userToLogin);
+    }
 }

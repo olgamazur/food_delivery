@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-public class RegisteredUserDetailsDto {
+public class UserRegisterDto {
     private String username;
     private String password;
 }
