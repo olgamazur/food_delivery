@@ -1,13 +1,13 @@
 package com.authorization.exceptions;
 
-import com.authorization.controllers.UserOperationsController;
+
 import com.authorization.utils.JsonUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-@ControllerAdvice(assignableTypes ={UserOperationsController.class})
+
 
 public class ExceptionHandlers {
     @ExceptionHandler(TargetNotFoundException.class)

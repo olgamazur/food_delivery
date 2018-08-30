@@ -19,4 +19,14 @@ spring:
            jdbc:
               lob:
                 non_contextual_creation: true
+security:
+  oauth2:
+    client:
+      client-id: food-delivery
+      client-secret: food-delivery-secret
+      scope: read,write
+      auto-approve-scopes: '.*'
+      access-token-uri: http://localhost:8081/oauth/token
+    resource:
+      token-info-uri: http://localhost:8081/oauth/token
 
