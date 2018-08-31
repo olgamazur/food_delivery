@@ -26,4 +26,4 @@ security:
       client-id: food-delivery
       client-secret: food-delivery-secret
       scope: read,write
-      auto-approve-scopes: '.*'
+      access-token-uri: http://localhost:8081/oauth/token

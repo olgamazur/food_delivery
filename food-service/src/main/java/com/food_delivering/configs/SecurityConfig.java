@@ -2,6 +2,7 @@ package com.food_delivering.configs;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
@@ -14,7 +15,11 @@ public class SecurityConfig extends ResourceServerConfigurerAdapter {
 
     @Override
     public void configure(HttpSecurity http) throws Exception {
-        http .authorizeRequests().antMatchers("/signin**").permitAll()
-       .and().authorizeRequests().antMatchers("/**").authenticated();
+        http.authorizeRequests()
+                .antMatchers(HttpMethod.POST, "/signup").permitAll()
+                .antMatchers(HttpMethod.POST, "/signin").permitAll()
+                .anyRequest().authenticated()
+                .and()
+                .httpBasic();
     }
 }

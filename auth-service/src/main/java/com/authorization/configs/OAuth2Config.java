@@ -49,13 +49,6 @@ public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
     }
 
 
-    @Override
-    public void configure(AuthorizationServerSecurityConfigurer oauthServer) throws Exception {
-        oauthServer.tokenKeyAccess("permitAll()")
-                .checkTokenAccess("isAuthenticated()");
-    }
-
-
   /*  @Bean
      public TokenStore tokenStore() {
          return new InMemoryTokenStore();
