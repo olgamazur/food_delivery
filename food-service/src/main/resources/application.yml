@@ -28,5 +28,5 @@ security:
       auto-approve-scopes: '.*'
       access-token-uri: http://localhost:8081/oauth/token
     resource:
-      token-info-uri: http://localhost:8081/oauth/token
+      user-info-uri: http://localhost:8081/me
 
