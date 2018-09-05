@@ -19,6 +19,7 @@ import javax.validation.Valid;
 @RequestMapping("/auth")
 public class UserController {
     private final AuthService authService;
+
     @PostMapping(value = "/register", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
     public UserDto registerUser(@RequestBody @Valid UserRegisterDto userRegisterDto) {
 

@@ -8,4 +8,5 @@ import lombok.Data;
 public class ClientDto {
     private String name;
     private Long id;
+    private String password;
 }

@@ -2,18 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15111ef-f98a-4744-b317-d55cf19fd3c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/auth-service/auth_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/auth-service/auth_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/food-service/food_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/food-service/food_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/MeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/auth-service-0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/food-service-0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/OrderContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedClientDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/RegisterClientDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf__.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/auth-service/auth_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/auth-service/auth_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/auth-service/auth_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/auth-service/auth_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/OAuth2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/OAuth2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/AuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/ClientDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedMealDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedMealDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/utils/EntityConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/utils/EntityConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -104,6 +132,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/auth-service">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -125,9 +156,20 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="food-delivering" type="f1a62948:ProjectNode" />
-                <item name="food-delivering" type="2d1252cf:ModuleNode" />
+                <item name=":auth" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-delivering" type="f1a62948:ProjectNode" />
+                <item name=":auth" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="food-delivering" type="f1a62948:ProjectNode" />
+                <item name=":auth" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="docker" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -145,7 +187,7 @@
                 <item name="food-delivering" type="f1a62948:ProjectNode" />
                 <item name=":food" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="help" type="c8890929:TasksNode$1" />
+                <item name="docker" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -156,103 +198,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/AuthController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/AuthService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/ClientDto.java">
+      <file leaf-file-name="AuthApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/AuthApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginClientDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/LoginClientDto.java">
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderContoller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/OrderContoller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/OrderRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Meal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Meal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Order.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/MeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oauth_access_token" pinned="false" current-in-tab="false">
-        <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/oauth_access_token">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth_users" pinned="false" current-in-tab="false">
-        <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/services/AuthService.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="221">
+              <caret line="26" column="31" lean-forward="true" selection-start-line="24" selection-end-line="26" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/entities/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="25" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MealRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/MealRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -279,6 +307,8 @@
       <find>DEFAULT_ACCESS_TOKEN_INSERT_STATEMENT</find>
       <find>insertAccessTokenSql</find>
       <find>http</find>
+      <find>configureGlobal</find>
+      <find>authenticationManagerBean</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -292,12 +322,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-4.8.1" />
+        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-4.8.1\wrapper\dists\gradle-4.9-all\491wbe0x5d54n9cojs2p0zv90\gradle-4.9" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="4.8.1" />
+        <entry key="$PROJECT_DIR$" value="4.9" />
       </map>
     </option>
     <option name="availableProjects">
@@ -334,48 +364,23 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'food-delivering'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays the sub-projects of root project 'food-delivering'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'food-delivering'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'food-delivering'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="wrapper" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
+                <option name="description" value="Cleans Docker build directory." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
+                <option name="name" value="dockerClean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="description" value="Runs the specified container with port mappings" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
+                <option name="name" value="dockerRun" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
@@ -386,6 +391,11 @@
                 <option name="description" value="Displays the configuration model of root project 'food-delivering'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepares Docker build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dockerPrepare" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -418,24 +428,109 @@
                 <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Runs this project as a Spring Boot application." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="bootRun" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'food-delivering'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Pushes named Docker image to configured Docker Hub." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dockerPush" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Removes the persistent container associated with the Docker Run tasks" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dockerRemoveContainer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'food-delivering'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Stops the named container if it is running" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dockerStop" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Checks the run status of the container" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dockerRunStatus" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'food-delivering'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'food-delivering'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'food-delivering'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the configured Dockerfile in a zip file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dockerfileZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Builds Docker image." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="docker" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Analyzes project ':auth' and its subprojects with SonarQube." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="sonarqube" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'food-delivering'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
@@ -453,16 +548,6 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'food-delivering'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="help" />
@@ -471,11 +556,6 @@
                 <option name="description" value="Assembles and tests this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'food-delivering'." />
@@ -519,9 +599,29 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Cleans Docker build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="dockerClean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the specified container with port mappings" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="dockerRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the configured Dockerfile in a zip file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="dockerfileZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
                 <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Builds Docker image." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="docker" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
@@ -532,6 +632,11 @@
                 <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
                 <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepares Docker build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="dockerPrepare" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -564,6 +669,11 @@
                 <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Analyzes project ':auth' and its subprojects with SonarQube." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="sonarqube" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs this project as a Spring Boot application." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
                 <option name="name" value="bootRun" />
@@ -584,6 +694,11 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Pushes named Docker image to configured Docker Hub." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="dockerPush" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
                 <option name="name" value="assemble" />
@@ -599,9 +714,19 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Removes the persistent container associated with the Docker Run tasks" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="dockerRemoveContainer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':auth'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
                 <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Stops the named container if it is running" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="dockerStop" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
@@ -612,6 +737,11 @@
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
                 <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Checks the run status of the container" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/auth-service" />
+                <option name="name" value="dockerRunStatus" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -665,9 +795,29 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Cleans Docker build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="dockerClean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the specified container with port mappings" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="dockerRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the configured Dockerfile in a zip file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="dockerfileZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
                 <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Builds Docker image." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="docker" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
@@ -678,6 +828,11 @@
                 <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
                 <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepares Docker build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="dockerPrepare" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -710,6 +865,11 @@
                 <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Analyzes project ':food' and its subprojects with SonarQube." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="sonarqube" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs this project as a Spring Boot application." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
                 <option name="name" value="bootRun" />
@@ -730,6 +890,11 @@
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Pushes named Docker image to configured Docker Hub." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="dockerPush" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
                 <option name="name" value="assemble" />
@@ -745,9 +910,19 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Removes the persistent container associated with the Docker Run tasks" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="dockerRemoveContainer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all dependencies declared in project ':food'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
                 <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Stops the named container if it is running" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="dockerStop" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
@@ -758,6 +933,11 @@
                 <option name="description" value="Displays a help message." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
                 <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Checks the run status of the container" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/food-service" />
+                <option name="name" value="dockerRunStatus" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -781,11 +961,11 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7678544385722" />
+        <entry key="$PROJECT_DIR$" value="7680608499693" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/auth-service/build.gradle" value="1692699733" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="772934710" />
-        <entry key="$PROJECT_DIR$/food-service/build.gradle" value="1190684617" />
+        <entry key="$PROJECT_DIR$/auth-service/build.gradle" value="2463367972" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2032379820" />
+        <entry key="$PROJECT_DIR$/food-service/build.gradle" value="4066696170" />
         <entry key="$PROJECT_DIR$/outh-service/build.gradle" value="3370357388" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2861357209" />
       </map>
@@ -810,9 +990,13 @@
                         <option name="entries">
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.2.RELEASE/b35e0fcf1acca8c38899af0f06269955f1bf553c/spring-boot-gradle-plugin-2.0.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/2.6.2/c6e2da4c6dd1bccab1753ca1faa9b33688339fb6/sonarqube-gradle-plugin-2.6.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.palantir.gradle.docker/gradle-docker/0.13.0/af7729f67d31e579e217af896c5fb04672b771df/gradle-docker-0.13.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.2.RELEASE/f1460752eda55972571a9651fcdfcb6cceef183d/spring-boot-loader-tools-2.0.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarsource.scanner.api/sonar-scanner-api/2.9.0.887/daf561ff8b9d3f83bbd2080c44083147426dc9ae/sonar-scanner-api-2.9.0.887.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.6.RELEASE/984a52455b1be596b7f1a29f62d21d2f483eb764/spring-core-5.0.6.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.6.RELEASE/295ee4e8657e9c1fd327735c01d5fbce339cc44d/spring-jcl-5.0.6.RELEASE.jar" />
                           </list>
@@ -834,9 +1018,13 @@
                         <option name="entries">
                           <list>
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.2.RELEASE/b35e0fcf1acca8c38899af0f06269955f1bf553c/spring-boot-gradle-plugin-2.0.2.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarsource.scanner.gradle/sonarqube-gradle-plugin/2.6.2/c6e2da4c6dd1bccab1753ca1faa9b33688339fb6/sonarqube-gradle-plugin-2.6.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.palantir.gradle.docker/gradle-docker/0.13.0/af7729f67d31e579e217af896c5fb04672b771df/gradle-docker-0.13.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.2.RELEASE/f1460752eda55972571a9651fcdfcb6cceef183d/spring-boot-loader-tools-2.0.2.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.sonarsource.scanner.api/sonar-scanner-api/2.9.0.887/daf561ff8b9d3f83bbd2080c44083147426dc9ae/sonar-scanner-api-2.9.0.887.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.6.RELEASE/984a52455b1be596b7f1a29f62d21d2f483eb764/spring-core-5.0.6.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.6.RELEASE/295ee4e8657e9c1fd327735c01d5fbce339cc44d/spring-jcl-5.0.6.RELEASE.jar" />
                           </list>
@@ -857,153 +1045,152 @@
               <option name="name" value="food-delivering" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="C:/Gradle/gradle-4.8.1/src/announce" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/antlr" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/base-services" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/base-services-groovy" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/build-cache" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/build-cache-http" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/build-comparison" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/build-init" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/build-option" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/cli" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/code-quality" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/composite-builds" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/core" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/core-api" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/dependency-management" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/diagnostics" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/ear" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/ide" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/ide-native" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/ide-play" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/installation-beacon" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/internal-android-performance-testing" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/internal-integ-testing" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/internal-performance-testing" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/internal-testing" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/ivy" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/jacoco" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/javascript" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/jvm-services" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/language-groovy" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/language-java" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/language-jvm" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/language-native" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/language-scala" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/launcher" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/logging" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/maven" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/messaging" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/model-core" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/model-groovy" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/native" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/osgi" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/persistent-cache" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/platform-base" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/platform-jvm" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/platform-native" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/platform-play" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/plugin-development" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/plugin-use" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/plugins" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/process-services" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/publish" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/reporting" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/resources" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/resources-gcs" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/resources-http" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/resources-s3" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/resources-sftp" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/scala" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/signing" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/test-kit" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/testing-base" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/testing-junit-platform" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/testing-jvm" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/testing-native" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/tooling-api" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/tooling-api-builders" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/version-control" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/workers" />
-                  <option value="C:/Gradle/gradle-4.8.1/src/wrapper" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/ant-1.9.11.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/ant-launcher-1.9.11.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-base-services-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-base-services-groovy-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-build-cache-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-build-option-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-cli-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-core-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-core-api-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-docs-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-installation-beacon-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-jvm-services-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-kotlin-dsl-0.17.5.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-kotlin-dsl-provider-plugins-0.17.5.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-kotlin-dsl-provider-spi-0.17.5.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-kotlin-dsl-tooling-builders-0.17.5.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-kotlin-dsl-tooling-models-0.17.5.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-launcher-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-logging-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-messaging-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-model-core-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-model-groovy-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-native-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-persistent-cache-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-process-services-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-resources-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-runtime-api-info-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-tooling-api-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/gradle-wrapper-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/groovy-all-2.4.12.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-announce-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-antlr-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-build-cache-http-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-build-comparison-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-build-init-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-code-quality-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-composite-builds-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-dependency-management-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-diagnostics-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-ear-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-ide-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-ide-native-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-ide-play-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-ivy-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-jacoco-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-javascript-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-language-groovy-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-language-java-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-language-jvm-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-language-native-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-language-scala-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-maven-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-osgi-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-platform-base-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-platform-jvm-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-platform-native-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-platform-play-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-plugin-development-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-plugin-use-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-plugins-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-publish-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-reporting-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-resources-gcs-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-resources-http-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-resources-s3-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-resources-sftp-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-scala-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-signing-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-test-kit-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-testing-base-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-testing-junit-platform-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-testing-jvm-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-testing-native-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-tooling-api-builders-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-version-control-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/gradle-workers-4.8.1.jar" />
-                  <option value="C:/Gradle/gradle-4.8.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/announce" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/antlr" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/base-services" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/base-services-groovy" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/build-cache" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/build-cache-http" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/build-comparison" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/build-init" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/build-option" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/cli" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/code-quality" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/composite-builds" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/core" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/core-api" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/dependency-management" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/diagnostics" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/ear" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/ide" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/ide-native" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/ide-play" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/installation-beacon" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/internal-android-performance-testing" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/internal-integ-testing" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/internal-performance-testing" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/internal-testing" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/ivy" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/jacoco" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/javascript" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/jvm-services" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/language-groovy" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/language-java" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/language-jvm" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/language-native" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/language-scala" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/launcher" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/logging" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/maven" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/messaging" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/model-core" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/model-groovy" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/native" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/osgi" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/persistent-cache" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/platform-base" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/platform-jvm" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/platform-native" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/platform-play" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/plugin-development" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/plugin-use" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/plugins" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/process-services" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/publish" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/reporting" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/resources" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/resources-gcs" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/resources-http" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/resources-s3" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/resources-sftp" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/scala" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/signing" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/test-kit" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/testing-base" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/testing-junit-platform" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/testing-jvm" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/testing-native" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/tooling-api" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/tooling-api-builders" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/version-control" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/workers" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/src/wrapper" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/ant-1.9.11.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/ant-launcher-1.9.11.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-base-services-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-base-services-groovy-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-build-cache-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-build-option-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-cli-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-core-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-core-api-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-docs-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-installation-beacon-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-jvm-services-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-kotlin-dsl-0.18.4.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-kotlin-dsl-provider-plugins-0.18.4.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-kotlin-dsl-tooling-builders-0.18.4.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-kotlin-dsl-tooling-models-0.18.4.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-launcher-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-logging-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-messaging-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-model-core-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-model-groovy-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-persistent-cache-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-process-services-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-resources-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-runtime-api-info-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-tooling-api-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/gradle-wrapper-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-announce-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-antlr-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-build-cache-http-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-build-comparison-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-build-init-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-code-quality-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-composite-builds-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-dependency-management-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-diagnostics-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-ear-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-ide-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-ide-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-ide-play-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-ivy-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-jacoco-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-javascript-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-language-groovy-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-language-java-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-language-jvm-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-language-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-language-scala-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-maven-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-osgi-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-platform-base-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-platform-jvm-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-platform-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-platform-play-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-plugin-development-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-plugin-use-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-plugins-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-publish-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-reporting-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-resources-gcs-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-resources-http-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-resources-s3-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-resources-sftp-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-scala-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-signing-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-test-kit-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-testing-base-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-testing-junit-platform-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-testing-jvm-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-testing-native-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-tooling-api-builders-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-version-control-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/gradle-workers-4.9.jar" />
+                  <option value="C:/Gradle/gradle-4.8.1/wrapper/dists/gradle-4.9-all/491wbe0x5d54n9cojs2p0zv90/gradle-4.9/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -1023,23 +1210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/ServerSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/UiSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/AuthServerConfig.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/properties/OAuth2ServerConfigs.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/OAuth2ServerConfigs.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/CustomTokenEnhanser.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/dto/UserAuthDetailsDto.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/properties/AuthServerProperties.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/CustomTokenEnhancer.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/OAuth2ServerConfig.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/properties/AuthorizationServerConfig.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/entities/UserDetails.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/repositories/UserDetailsRepository.java" />
-        <option value="158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth.sql" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/ResourceServerConfig.java" />
-        <option value="158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/oauth_access_token.sql" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/resources/scema.sql" />
         <option value="$PROJECT_DIR$/food-service/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/services/UserService.java" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/dto/UserAuthDto.java" />
@@ -1050,30 +1220,47 @@
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/entities/UserRoles.java" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/repositories/UserRepository.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/158e8821-5e9d-4ca4-87eb-ab8e9a06222a/console.sql" />
-        <option value="$PROJECT_DIR$/auth-service/build.gradle" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/services/AuthService.java" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/entities/User.java" />
         <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/configs/SecutiryConfig.java" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserOperationsController.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/food-service/build.gradle" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/exceptions/ExceptionHandlers.java" />
         <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/FoodApp.java" />
         <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/LoginClientDto.java" />
         <option value="158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users.sql" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/AuthApp.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/OAuth2Config.java" />
         <option value="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/configs/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/configs/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java" />
         <option value="158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles.sql" />
-        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/AuthController.java" />
-        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/AuthService.java" />
         <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/MeController.java" />
         <option value="$PROJECT_DIR$/food-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/food-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/food-service/build.gradle" />
+        <option value="$PROJECT_DIR$/auth-service/build.gradle" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/auth-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/AuthService.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedClientDto.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedMealDto.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/utils/EntityConverter.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/ClientDto.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/RegisterClientDto.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/AuthController.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/ClientService.java" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/OAuth2Config.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/UserRepository.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/User.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Meal.java" />
+        <option value="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Order.java" />
       </list>
     </option>
   </component>
@@ -1098,8 +1285,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -1151,7 +1338,37 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="authorization" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorization" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorization" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authorization" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
@@ -1170,6 +1387,93 @@
               <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="food_delivering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="food_delivering" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="food_delivering" type="462c0819:PsiDirectoryNode" />
+              <item name="contollers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="food_delivering" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="food_delivering" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="food_delivering" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="food_delivering" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="food_delivering" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
@@ -1191,6 +1495,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -1200,13 +1505,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\gradle\wrapper" />
       <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery" />
-      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\food-service" />
-      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\services" />
+      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\auth-service" />
+      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\auth-service\src\main\java\com\authorization" />
+      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\services\food-service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.authorization.configs" />
@@ -1214,11 +1521,11 @@
       <recent name="com.authorization.utils" />
       <recent name="food_delivering.exсeptions" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\auth-service\src\main\java\com\authorization" />
-      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\services\food-service" />
-      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\services\food-service\src\main\resources" />
-      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\services\food-service\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\auth-service" />
+      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\food-service" />
+      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery" />
+      <recent name="C:\Users\Kaa-Developer\IdeaProjects\food_delivery\services" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1265,36 +1572,44 @@
     <option name="contentProportion" value="0.16138996" />
   </component>
   <component name="RunManager" selected="Spring Boot.FoodApp (2)">
-    <configuration name="FoodApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="food_delivering.FoodApp" />
-      <module name="food" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="food_delivering.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="food_delivery:food-service []" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="food_delivery:auth-service [dockerPush]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/food-service" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/auth-service" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
-          <list />
+          <list>
+            <option value="dockerPush" />
+          </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="food_delivery:food-service [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="food_delivery:auth-service [docker]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/auth-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="docker" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="food_delivery:food-service [dockerClean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/food-service" />
@@ -1305,19 +1620,28 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
+            <option value="dockerClean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="food" />
-      <setting name="path" value="file://$PROJECT_DIR$/services/food-service/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/services/food-service" />
-      <setting name="debug" value="false" />
+    <configuration name="food_delivery:food-service [docker]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/food-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="docker" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1373,19 +1697,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.AuthApp" />
-      <item itemvalue="Gradle.food_delivery:food-service []" />
-      <item itemvalue="Application.FoodApp" />
-      <item itemvalue="Groovy.build" />
       <item itemvalue="Spring Boot.FoodApp (2)" />
-      <item itemvalue="Gradle.food_delivery:food-service [dependencies]" />
+      <item itemvalue="Gradle.food_delivery:auth-service [docker]" />
+      <item itemvalue="Gradle.food_delivery:auth-service [dockerPush]" />
+      <item itemvalue="Gradle.food_delivery:food-service [dockerClean]" />
+      <item itemvalue="Gradle.food_delivery:food-service [docker]" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.FoodApp (2)" />
-        <item itemvalue="Gradle.food_delivery:food-service [dependencies]" />
-        <item itemvalue="Groovy.build" />
-        <item itemvalue="Application.FoodApp" />
-        <item itemvalue="Gradle.food_delivery:food-service []" />
+        <item itemvalue="Gradle.food_delivery:food-service [docker]" />
+        <item itemvalue="Gradle.food_delivery:food-service [dockerClean]" />
+        <item itemvalue="Gradle.food_delivery:auth-service [dockerPush]" />
+        <item itemvalue="Gradle.food_delivery:auth-service [docker]" />
       </list>
     </recent_temporary>
   </component>
@@ -1416,7 +1740,9 @@
       <workItem from="1536056127799" duration="11000" />
       <workItem from="1536056526088" duration="55000" />
       <workItem from="1536056601712" duration="55000" />
-      <workItem from="1536057229225" duration="5114000" />
+      <workItem from="1536057229225" duration="6221000" />
+      <workItem from="1536133027733" duration="10054000" />
+      <workItem from="1536144491796" duration="6006000" />
     </task>
     <task id="LOCAL-00001" summary="add exceptions">
       <created>1534335824918</created>
@@ -1530,11 +1856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535644497147</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="auth">
+      <created>1536067696550</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1536067696550</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120788000" />
+    <option name="totallyTimeSpent" value="137955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1547,6 +1880,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.4101307" />
@@ -1554,7 +1888,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.4462935" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1565,21 +1900,21 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.49924356" weight="0.32843137" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49848714" visible="true" weight="0.43464053" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21875" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49848714" visible="true" weight="0.43137255" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3627451" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924356" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.58986926" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32026145" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85121953" visible="true" weight="0.23903178" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85121953" visible="true" weight="0.25567323" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" sideWeight="0.1487805" side_tool="true" weight="0.24942617" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.2708018" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.33661118" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32730263" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32026145" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3267974" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.34313726" />
@@ -1587,42 +1922,44 @@
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.30232558" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.34385383" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49924356" weight="0.34313726" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Database Console" order="17" weight="0.32026145" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.320598" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3255814" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3627451" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3267974" />
-      <window_info id="Capture Tool" order="5" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32724252" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32724252" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.4101307" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.27450982" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49924356" weight="0.3267974" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49924356" weight="0.3267974" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85121953" visible="true" weight="0.2965204" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49924356" weight="0.32843137" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.32034975" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85121953" visible="true" weight="0.18362662" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.22800305" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.33661118" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.15960665" />
+      <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Web" order="7" sideWeight="0.1487805" side_tool="true" weight="0.24942617" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32724252" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="SQL Generator" order="16" weight="0.32730263" />
       <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49848714" visible="true" weight="0.43137255" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1726,13 +2063,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java</url>
-          <line>24</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java</url>
-          <line>25</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="178" />
         </line-breakpoint>
@@ -1751,276 +2088,10 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="186" />
+      <option name="time" value="193" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.0.5.RELEASE/1dedd0c9aad4de030ffc778073443e319b0f2b86/spring-security-core-5.0.5.RELEASE-sources.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.0.5.RELEASE/1dedd0c9aad4de030ffc778073443e319b0f2b86/spring-security-core-5.0.5.RELEASE-sources.jar!/org/springframework/security/core/Authentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/configs/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/5.0.5.RELEASE/1dedd0c9aad4de030ffc778073443e319b0f2b86/spring-security-core-5.0.5.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/client/filter/OAuth2ClientAuthenticationProcessingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="158" column="71" lean-forward="true" selection-start-line="158" selection-start-column="71" selection-end-line="158" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/configs/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="23" selection-start-line="15" selection-start-column="2" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/AuthApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/OAuth2Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/ManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="49" column="108" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users_roles.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -2042,58 +2113,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/ClientDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/LoginClientDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/services/AuthService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2104,22 +2127,340 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/MeController.java">
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/ManagerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="49" column="108" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="44" column="104" selection-start-line="44" selection-start-column="104" selection-end-line="44" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.0.5.RELEASE/e18caab51190027ed8bafd8ed5d2f46174a86b50/spring-security-config-5.0.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/WebSecurityConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.0.5.RELEASE/e18caab51190027ed8bafd8ed5d2f46174a86b50/spring-security-config-5.0.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/FoodApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/food-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="5" selection-start-column="8" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="79" selection-start-line="4" selection-start-column="79" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="58" column="6" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="58" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/MealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="45" column="41" lean-forward="true" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedClientDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedMealDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/utils/EntityConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/auth_users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/meal">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/ClientDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/LoginClientDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/MealDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/client">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/RegisterClientDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="82" column="4" selection-start-line="81" selection-end-line="82" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/ClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="41" column="55" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/MeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/OAuth2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
           <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/configs/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/AuthApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/MealRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/OrderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/authorization/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/client_order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/contollers/OrderContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="24" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Meal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -2143,7 +2484,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

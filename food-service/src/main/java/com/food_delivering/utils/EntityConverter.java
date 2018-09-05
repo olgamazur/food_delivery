@@ -17,7 +17,7 @@ public class EntityConverter {
     private final UserRepository userRepository;
 
     public ClientDto transformClient(User user) {
-        ClientDto dto = new ClientDto(user.getName(), user.getId());
+        ClientDto dto = new ClientDto(user.getName(), user.getId(),user.getPassword());
         return dto;
     }
 

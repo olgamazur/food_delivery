@@ -1,8 +1,8 @@
 package com.food_delivering.contollers;
 
-import ch.qos.logback.core.net.server.Client;
-import com.food_delivering.dto.ClientDto;
 import com.food_delivering.dto.LoginClientDto;
+import com.food_delivering.dto.RegisterClientDto;
+import com.food_delivering.services.ClientService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -37,7 +37,7 @@ import java.util.Collection;
 @RequiredArgsConstructor
 @Configuration
 public class AuthController {
-
+    private final ClientService clientService;
 
     @PostMapping(value = "/signin", produces = MediaType.APPLICATION_JSON_VALUE)
     public @ResponseBody
@@ -59,22 +59,24 @@ public class AuthController {
         sc.setAuthentication(null);
         return accessToken;
     }
+
     @PostMapping(value = "/signup", produces = MediaType.APPLICATION_JSON_VALUE)
     public @ResponseBody
     OAuth2AccessToken register(@RequestParam("username") String login, @RequestParam("password") String password) {
         OAuth2RestTemplate template = new OAuth2RestTemplate(clientCredentialsResourceDetails());
         OAuth2AccessToken accessToken = template.getAccessToken();
-        LoginClientDto loginClientDto=new LoginClientDto();
-        loginClientDto.setPassword(password);
-        loginClientDto.setUsername(login);
+        RegisterClientDto registerClientDto = new RegisterClientDto();
+        registerClientDto.setPassword(password);
+        registerClientDto.setUsername(login);
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.add("Authorization",accessToken.getValue());
-        HttpEntity<LoginClientDto> request = new HttpEntity<>(loginClientDto, headers);
-        ResponseEntity<LoginClientDto> response;
+        headers.add("Authorization", accessToken.getValue());
+        HttpEntity<RegisterClientDto> request = new HttpEntity<>(registerClientDto, headers);
+        ResponseEntity<RegisterClientDto> response;
 
-        RestTemplate authtemplate=new RestTemplate();
-        response=authtemplate.postForEntity("http://localhost:8081/auth/register",request,LoginClientDto.class);
+        RestTemplate authtemplate = new RestTemplate();
+        response = authtemplate.postForEntity("http://localhost:8081/auth/register", request, RegisterClientDto.class);
+        clientService.addNewClient(registerClientDto);
         return accessToken;
     }
 

@@ -83,6 +83,7 @@ public class OAuth2Config extends AuthorizationServerConfigurerAdapter {
         populator.addScript(schemaScript);
         return populator;
     }
+
     public enum Authority {
         USER, ADMIN
     }
