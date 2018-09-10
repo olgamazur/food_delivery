@@ -5,8 +5,6 @@ services:
     ports:
       - 8081:8081
     network_mode: "host"
-    links:
-      - postgresql
     build:
          context: ./auth-service
          dockerfile: ./Dockerfile
@@ -17,18 +15,17 @@ services:
     ports:
       - 8080:8080
     network_mode: "host"
-    links:
-      - postgresql
     build:
       context: ./food-service
       dockerfile: ./Dockerfile
       args:
         JAR_FILE: './food-service-0.1.0.jar'
-  postgresql:
-    image: postgres
-    ports:
-      - 5432:5432
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: food
+  postgres:
+      image: postgres
+      restart: always
+      ports:
+        - 5432:5432
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+        POSTGRES_DB: food
