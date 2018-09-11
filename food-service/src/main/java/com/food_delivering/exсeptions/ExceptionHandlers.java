@@ -1,8 +1,8 @@
 package com.food_delivering.exсeptions;
 
-import com.food_delivering.contollers.ClientController;
-import com.food_delivering.contollers.ManagerController;
-import com.food_delivering.contollers.MealController;
+import com.food_delivering.controllers.ClientController;
+import com.food_delivering.controllers.ManagerController;
+import com.food_delivering.controllers.MealController;
 import com.food_delivering.utils.JsonUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

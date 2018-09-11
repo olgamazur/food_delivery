@@ -1,6 +1,5 @@
-package com.food_delivering.contollers;
+package com.food_delivering.controllers;
 
-import com.food_delivering.dto.LoginClientDto;
 import com.food_delivering.dto.RegisterClientDto;
 import com.food_delivering.services.ClientService;
 import lombok.RequiredArgsConstructor;

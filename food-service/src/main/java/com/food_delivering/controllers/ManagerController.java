@@ -1,4 +1,4 @@
-package com.food_delivering.contollers;
+package com.food_delivering.controllers;
 
 import com.food_delivering.dto.ClientDto;
 import com.food_delivering.dto.CreatedMealDto;

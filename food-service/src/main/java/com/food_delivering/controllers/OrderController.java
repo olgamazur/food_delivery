@@ -1,15 +1,11 @@
-package com.food_delivering.contollers;
+package com.food_delivering.controllers;
 
-import com.food_delivering.services.MealService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/meal")
+@RequestMapping("/order")
 @RequiredArgsConstructor
-public class MealController {
-    private final MealService mealService;
-
-
+public class OrderController {
 }
