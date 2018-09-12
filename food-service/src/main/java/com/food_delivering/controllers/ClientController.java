@@ -29,8 +29,8 @@ public class ClientController {
         return mealService.getMeals();
     }
 
-    @PutMapping(value = "/{mealId}/{userId}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ClientOrderDto addMealToOrder(@PathVariable Long mealId, @PathVariable Long userId) {
-        return clientService.addMealToOrder(mealId, userId);
+    @PutMapping(value = "/{mealId}/amount/{amount}", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ClientOrderDto addMealToOrder(@PathVariable Long mealId,@PathVariable Long amount) {
+        return clientService.addMealToOrder(mealId,amount);
     }
 }

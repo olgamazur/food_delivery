@@ -3,6 +3,7 @@ package com.food_delivering.controllers;
 import com.food_delivering.dto.RegisterClientDto;
 import com.food_delivering.services.ClientService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +19,8 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.oauth2.client.DefaultOAuth2ClientContext;
 import org.springframework.security.oauth2.client.OAuth2RestTemplate;
 import org.springframework.security.oauth2.client.token.DefaultAccessTokenRequest;
@@ -37,6 +40,7 @@ import java.util.Collection;
 @Configuration
 public class AuthController {
     private final ClientService clientService;
+
 
     @PostMapping(value = "/signin", produces = MediaType.APPLICATION_JSON_VALUE)
     public @ResponseBody
@@ -65,7 +69,8 @@ public class AuthController {
         OAuth2RestTemplate template = new OAuth2RestTemplate(clientCredentialsResourceDetails());
         OAuth2AccessToken accessToken = template.getAccessToken();
         RegisterClientDto registerClientDto = new RegisterClientDto();
-        registerClientDto.setPassword(password);
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        registerClientDto.setPassword(passwordEncoder.encode(password));
         registerClientDto.setUsername(login);
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);

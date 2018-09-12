@@ -15,7 +15,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -30,17 +32,17 @@ public class EntityConverter {
     }
 
     public MealDto transformMeal(Meal meal) {
+
         MealDto dto = new MealDto(meal.getId(), meal.getName(), meal.getType(), meal.getCost());
         return dto;
     }
 
     public ClientOrderDto transformOrder(ClientOrder clientOrder) {
-        List<MealDto> meals=new ArrayList<>();
+        List<MealDto> meals = new ArrayList<>();
         if (!CollectionUtils.isEmpty(clientOrder.getMeals())) {
             meals = clientOrder.getMeals()
                     .stream()
-                    .map(this::transformMeal)
-                    .collect(Collectors.toList());
+                  .map(this::transformMeal).collect(Collectors.toList());
         }
         ClientOrderDto dto = new ClientOrderDto(clientOrder.getId(), clientOrder.getCreatedDate(), clientOrder.getCost(), meals, clientOrder.getUser().getId());
         return dto;
