@@ -7,19 +7,13 @@
     <facet type="web" name="Web">
       <configuration>
         <webroots />
-        <sourceRoots />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output-test url="file://$MODULE_DIR$/../../../food-service/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../food-service/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../food-service/src/test/it[integrationTest]/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../food-service/src/test/it[integrationTest]/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../food-service/src/test/unit[unitTest]/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../food-service/src/test/unit[unitTest]/resources" type="java-test-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../food-service/src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="food_main" />

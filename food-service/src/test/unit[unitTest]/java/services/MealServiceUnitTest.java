@@ -1,10 +1,10 @@
 package services;
 
-import com.food_delivering.dto.MealDto;
-import com.food_delivering.entities.Meal;
-import com.food_delivering.repositories.MealRepository;
-import com.food_delivering.services.MealService;
-import com.food_delivering.utils.EntityConverter;
+import com.food.dto.MealDto;
+import com.food.entities.Meal;
+import com.food.repositories.MealRepository;
+import com.food.services.MealService;
+import com.food.utils.EntityConverter;
 import org.assertj.core.util.Lists;
 import org.junit.Before;
 import org.junit.Test;

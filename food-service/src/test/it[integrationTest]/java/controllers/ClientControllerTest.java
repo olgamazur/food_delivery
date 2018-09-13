@@ -1,10 +1,10 @@
 package controllers;
 
-import com.food_delivering.FoodApp;
-import com.food_delivering.controllers.ClientController;
-import com.food_delivering.dto.MealDto;
-import com.food_delivering.exсeptions.ExceptionHandlers;
-import com.food_delivering.services.MealService;
+import com.food.FoodApp;
+import com.food.controllers.ClientController;
+import com.food.dto.MealDto;
+import com.food.exсeptions.ExceptionHandlers;
+import com.food.services.MealService;
 import javafx.application.Application;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

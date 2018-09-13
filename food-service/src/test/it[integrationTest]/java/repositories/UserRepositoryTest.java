@@ -1,8 +1,8 @@
 package repositories;
 
-import com.food_delivering.FoodApp;
-import com.food_delivering.entities.User;
-import com.food_delivering.repositories.UserRepository;
+import com.food.FoodApp;
+import com.food.entities.User;
+import com.food.repositories.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

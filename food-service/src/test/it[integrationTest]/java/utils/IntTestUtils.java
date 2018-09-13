@@ -1,7 +1,7 @@
 package utils;
 
-import com.food_delivering.dto.MealDto;
-import com.food_delivering.entities.Meal;
+import com.food.dto.MealDto;
+import com.food.entities.Meal;
 import io.github.benas.randombeans.EnhancedRandomBuilder;
 import io.github.benas.randombeans.api.EnhancedRandom;
 import lombok.NoArgsConstructor;
