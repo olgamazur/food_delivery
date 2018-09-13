@@ -2,54 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b15111ef-f98a-4744-b317-d55cf19fd3c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/entities/ClientOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/auth-service/auth_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/auth-service/auth_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/auth-service/auth_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/auth-service/auth_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/food-service/food_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/food-service/food_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/food-service/food_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/food-service/food_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/FoodApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/FoodApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/configs/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/configs/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/configs/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/configs/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/configs/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/controllers/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/controllers/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/controllers/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/controllers/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/controllers/ManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/controllers/MealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/controllers/MealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/controllers/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/controllers/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/dto/ClientDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/ClientOrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/dto/ClientOrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/dto/CreatedClientDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/CreatedMealDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/dto/CreatedMealDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/LoginClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/dto/LoginClientDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/MealDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/dto/MealDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/dto/RegisterClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/dto/RegisterClientDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/ClientMeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/entities/ClientMeals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/ClientOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/entities/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/exсeptions/ErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/exсeptions/ErrorDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/exсeptions/ExceptionHandlers.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/exсeptions/ExceptionHandlers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/exсeptions/TargetAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/exсeptions/TargetAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/exсeptions/TargetNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/exсeptions/TargetNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/ClientMealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/repositories/ClientMealRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/MealRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/repositories/MealRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/repositories/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/services/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/services/MealService.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/services/MealService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/utils/EntityConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/utils/EntityConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/main/java/com/food_delivering/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/main/java/com/food/utils/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/test/it[integrationTest]/java/controllers/ClientControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/test/it[integrationTest]/java/controllers/ClientControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/test/it[integrationTest]/java/repositories/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/test/it[integrationTest]/java/repositories/UserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/test/it[integrationTest]/java/utils/IntTestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/test/it[integrationTest]/java/utils/IntTestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/test/unit[unitTest]/java/services/MealServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/test/unit[unitTest]/java/services/MealServiceUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/food-service/src/test/unit[unitTest]/java/utils/UnitTestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/food-service/src/test/unit[unitTest]/java/utils/UnitTestUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -158,43 +112,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ClientService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/services/ClientService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="76" column="21" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientOrder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/entities/ClientOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientMeals.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/entities/ClientMeals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Meal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/entities/Meal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="meal" pinned="false" current-in-tab="false">
         <entry file="das://158e8821-5e9d-4ca4-87eb-ab8e9a06222a/database/food/schema/public/table/meal">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -204,20 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MealDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/dto/MealDto.java">
+      <file leaf-file-name="ClientOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/entities/ClientOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientOrderDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/dto/ClientOrderDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            <state relative-caret-position="272">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -236,15 +145,6 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MealService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/services/MealService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -929,10 +829,10 @@
         <entry key="$PROJECT_DIR$" value="7684144467547" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/auth-service/build.gradle" value="2463367972" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="772934710" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2032379820" />
         <entry key="$PROJECT_DIR$/food-service/build.gradle" value="157911298" />
         <entry key="$PROJECT_DIR$/outh-service/build.gradle" value="3370357388" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="1132350521" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2861357209" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1239,10 +1139,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="221" />
+    <option name="x" value="220" />
     <option name="y" value="70" />
-    <option name="width" value="1503" />
-    <option name="height" value="838" />
+    <option name="width" value="1505" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1250,7 +1150,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1341,37 +1243,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
               <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food_delivery" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="food-service" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="food-delivering" type="b2602c69:ProjectViewProjectNode" />
@@ -1388,8 +1260,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1402,7 +1272,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tracking-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1666,6 +1536,9 @@
       <workItem from="1536674543666" duration="8177000" />
       <workItem from="1536744329295" duration="717000" />
       <workItem from="1536745360886" duration="15844000" />
+      <workItem from="1536844300472" duration="43000" />
+      <workItem from="1536844391905" duration="69000" />
+      <workItem from="1536845188139" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="add exceptions">
       <created>1534335824918</created>
@@ -1800,7 +1673,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536675817581</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="client_order">
+      <created>1536844094841</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1536844094841</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1836,7 +1716,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196189000" />
+    <option name="totallyTimeSpent" value="196755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1849,73 +1729,48 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Build" weight="0.030656934" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.23892617" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.4101307" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.34313726" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24765101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49848714" visible="true" weight="0.4569343" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32026145" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23691276" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3267974" />
-      <window_info anchor="right" id="Gradle" weight="0.0" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6535948" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34313726" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Web" order="2" sideWeight="0.15384616" side_tool="true" visible="true" weight="0.3245083" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32843137" />
-      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5015129" side_tool="true" weight="0.4101307" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.27450982" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84615386" visible="true" weight="0.3245083" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.49924356" weight="0.32843137" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.34313726" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32843137" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.14599092" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.24810892" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6535948" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.3267974" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49848714" visible="true" weight="0.42627737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34313726" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32843137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83715016" visible="true" weight="0.32885906" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" sideWeight="0.16284987" side_tool="true" visible="true" weight="0.32885906" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.14599092" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32026145" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="SQL Generator" order="8" weight="0.32730263" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.3267974" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.27450982" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49848714" visible="true" weight="0.34160584" />
       <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49924356" weight="0.34313726" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -1924,23 +1779,22 @@
       <window_info anchor="bottom" id="Run" order="3" weight="0.34313726" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32843137" />
-      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.4101307" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.27450982" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49924356" weight="0.3267974" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49924356" weight="0.3267974" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49924356" weight="0.32843137" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49924356" weight="0.32843137" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
       <window_info anchor="right" id="Gradle" order="7" weight="0.14599092" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84615386" visible="true" weight="0.3245083" />
       <window_info active="true" anchor="right" id="Database" order="8" visible="true" weight="0.24810892" />
@@ -1950,10 +1804,10 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.6535948" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49924356" weight="0.3267974" />
       <window_info anchor="bottom" id="SQL Generator" order="15" weight="0.32730263" />
       <window_info anchor="right" id="Bean Validation" order="0" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49848714" visible="true" weight="0.34160584" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.6535948" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1967,7 +1821,8 @@
     <MESSAGE value="add exceptions,swagger,methods to services" />
     <MESSAGE value="auth" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="client_order" />
+    <option name="LAST_COMMIT_MESSAGE" value="client_order" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2568,17 +2423,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/entities/ClientOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/entities/ClientMeals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food-service/src/main/java/com/food/entities/ClientOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
         </state>
       </provider>
     </entry>
